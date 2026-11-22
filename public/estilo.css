@@ -1,0 +1,33 @@
+@font-face{font-family:Cinzel;src:url(recursos/cinzel.woff2)}
+@font-face{font-family:Inter;src:url(recursos/inter.woff2)}
+*{box-sizing:border-box}
+html{background:#071216;color-scheme:dark}
+body{margin:0;min-height:100svh;display:flex;flex-direction:column;align-items:stretch;color:#faf4e2;font-family:Inter,sans-serif;background:linear-gradient(180deg,#050e15ab,transparent 32%,#07141775 66%,#050c10ed),radial-gradient(ellipse at center,#071216a1,transparent 74%),url(recursos/grieta.jpg) center/cover}
+header,footer{margin:0 clamp(1.3rem,5vw,6rem);display:flex;align-items:center;justify-content:space-between}
+header{padding:1.4rem 0;border-bottom:1px solid #c9ad683e}
+.marca{display:flex;align-items:center;gap:.8rem;font:600 1.2rem Cinzel,serif;letter-spacing:.04em}
+.marca i{display:grid;place-items:center;width:30px;height:30px;color:#e4ca8d;border:1px solid #b59a5f;transform:rotate(45deg);font:normal 1.45rem Georgia}
+.region,footer,.categoria,h2,small{font-weight:500;text-transform:uppercase;letter-spacing:.17em}
+.region{font-size:.8rem;border:1px solid #ae975e80;color:#f4dca4;padding:.35rem .65rem}
+main{margin:auto;display:grid;justify-items:center;text-align:center;width:100%;padding:clamp(1rem,4vh,3.5rem) 1rem}
+.insignia{width:clamp(160px,22vh,255px);aspect-ratio:1.25;position:relative;overflow:hidden;filter:drop-shadow(0 6px 20px #10292c)}
+.insignia img{position:absolute;max-width:none;width:435%;top:50%;left:50%;transform:translate(-50%,-46.6%)}
+.categoria{display:flex;align-items:center;gap:.9rem;color:#efd6a0;font-size:.78rem;margin:1rem 0 .65rem}
+.categoria span{height:1px;width:38px;background:linear-gradient(90deg,transparent,#d4b570)}
+.categoria span:last-child{transform:scaleX(-1)}
+h1{margin:0;font:500 clamp(2.5rem,5.8vw,6rem)/1.08 Cinzel,Georgia,serif;text-shadow:0 2px 20px #0008;text-wrap:balance}
+h1 em{font-style:normal;color:#dfbe7e}
+.rango{margin:.7rem 0 1.8rem;color:#dedbcf}
+.rango b{color:#c4a66a;margin:0 .45em}
+section{width:min(100%,34rem);padding:1.35rem clamp(1rem,3vw,2rem) 1rem;border:1px solid #c3a56a84;background:linear-gradient(120deg,#0a1b20ed,#091418ee);box-shadow:0 12px 45px #0005}
+h2{font:500 .85rem Inter,sans-serif;letter-spacing:.17em;color:#e3c796;margin:0 0 .8rem;text-transform:uppercase}
+.reloj{display:flex;justify-content:center;align-items:start;gap:clamp(.45rem,2vw,1.2rem)}
+.reloj div{display:grid;gap:.15rem}
+.reloj strong,.reloj i{font:normal clamp(2.8rem,6vw,4.9rem)/1 Georgia,serif;font-variant-numeric:tabular-nums}
+.reloj strong{min-width:2ch}
+.reloj i{color:#ad935e;font-size:clamp(2rem,4.5vw,3.5rem);padding-top:.07em}
+small{font-size:.74rem;color:#d2ccbd}
+.horarios{border-top:1px solid #c4a87042;margin:1.15rem 0 0;padding-top:.9rem;display:flex;justify-content:center;gap:1rem 2rem;flex-wrap:wrap;color:#d4d5cb;font-size:.9rem}
+time{color:#f5e7c9;font-weight:600;margin-left:.3em}
+footer{border-top:1px solid #c9ad683e;padding:1.15rem 0;color:#d6c9aa;font-size:.75rem}
+@media(max-width:520px){.horarios{gap:.45rem 1rem}.categoria{font-size:.72rem}h1{max-width:13ch}.rango{margin-bottom:1.3rem}header{padding:1.1rem 0}}

@@ -1,0 +1,17 @@
+name: Publicar la landing
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: 3523de741e46113fc18e3e1dd118f1d2
+          command: pages deploy public --project-name=franco-a-platino --branch=main
