@@ -69,3 +69,4 @@ footer{border-top:1px solid #c9ad683e;padding:1.15rem 0;color:#d6c9aa;font-size:
 .campeon{display:flex;align-items:center;gap:.65rem}
 .campeon img{width:clamp(2rem,5vw,2.75rem);height:auto;border:1px solid #ad935e;border-radius:.35rem}
 .puesto{display:block;margin-top:.15rem;color:#d4d5cb;font-size:.78rem}
+.partida details{margin-top:1.5rem;border-top:1px solid #c4a87042;padding-top:1rem}.partida summary{color:#efd6a0;cursor:pointer}
