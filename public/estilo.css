@@ -46,3 +46,19 @@ footer{border-top:1px solid #c9ad683e;padding:1.15rem 0;color:#d6c9aa;font-size:
 .discord li:nth-child(6) .avatar{background-position:100% 100%}
 @media(max-width:780px){.discord ul{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(max-width:470px){.discord ul{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.partida{width:min(100%,64rem);margin-top:1rem}
+.partida>p{max-width:62ch;margin:1rem auto;line-height:1.55}
+.partida .minuto{font-variant-numeric:tabular-nums;color:#d5c5a5;margin-bottom:0}
+.partida .resultado{display:flex;align-items:center;justify-content:center;gap:1rem;margin-top:0}
+.resultado strong{font:500 2.3rem Cinzel,serif;white-space:nowrap;color:#f0d397}
+.captura{display:block;color:#f0d397;text-underline-offset:.2em}
+.captura img{display:block;width:100%;height:auto;margin:1rem 0 .5rem}
+.equipos{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1.25rem;margin-top:1.5rem}
+.equipos table{width:100%;border-collapse:collapse;font-size:.88rem;font-variant-numeric:tabular-nums}
+.equipos caption{font:600 1.1rem Cinzel,serif;text-align:left;color:#efd6a0;padding-bottom:.6rem}
+.equipos th,.equipos td{padding:.5rem .25rem;border-bottom:1px solid #c4a87042}
+.equipos th:first-child{text-align:left}
+.equipos tbody th{font-weight:500}
+.franco{background:#b59a5f21;color:#f8dc9a}
+.partida .leyenda{font-size:.8rem;color:#d4d5cb}
+@media(max-width:700px){.equipos{grid-template-columns:1fr}}
