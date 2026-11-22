@@ -2,7 +2,7 @@
 @font-face{font-family:Inter;src:url(recursos/inter.woff2)}
 *{box-sizing:border-box}
 html{background:#071216;color-scheme:dark}
-body{margin:0;min-height:100svh;display:flex;flex-direction:column;align-items:stretch;color:#faf4e2;font-family:Inter,sans-serif;background:linear-gradient(180deg,#050e15ab,transparent 32%,#07141775 66%,#050c10ed),radial-gradient(ellipse at center,#071216a1,transparent 74%),url(recursos/leona.jpg) 66% center/cover}
+body{margin:0;min-height:100svh;display:flex;flex-direction:column;align-items:stretch;color:#faf4e2;font-family:Inter,sans-serif;background:linear-gradient(180deg,#050e15ab,transparent 32%,#07141775 66%,#050c10ed),radial-gradient(ellipse at center,#071216a1,transparent 74%),url(recursos/leona.jpg) 66% 22%/cover}
 header,footer{margin:0 clamp(1.3rem,5vw,6rem);display:flex;align-items:center;justify-content:space-between}
 header{padding:1.4rem 0;border-bottom:1px solid #c9ad683e}
 .marca{display:flex;align-items:center;gap:.8rem;font:600 1.2rem Cinzel,serif;letter-spacing:.04em}
