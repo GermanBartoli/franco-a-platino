@@ -44,6 +44,7 @@ footer{border-top:1px solid #c9ad683e;padding:1.15rem 0;color:#d6c9aa;font-size:
 .discord li:nth-child(4) .avatar{background-position:0 100%}
 .discord li:nth-child(5) .avatar{background-position:50% 100%}
 .discord li:nth-child(6) .avatar{background-position:100% 100%}
+.avatar.jose-luna{background-image:url(recursos/jose-luna.png);background-size:cover;--ilustracion:url(recursos/jose-luna-ilustrado.png)}
 .avatar.incorporacion{background-image:url(recursos/discord-incorporaciones.png);background-size:200% 200%;--ilustracion:url(recursos/ilustraciones-incorporaciones.png)}
 .discord li:nth-child(8) .avatar{background-position:100% 0}
 .discord li:nth-child(9) .avatar{background-position:0 100%}
