@@ -70,3 +70,7 @@ footer{border-top:1px solid #c9ad683e;padding:1.15rem 0;color:#d6c9aa;font-size:
 .campeon img{width:clamp(2rem,5vw,2.75rem);height:auto;border:1px solid #ad935e;border-radius:.35rem}
 .puesto{display:block;margin-top:.15rem;color:#d4d5cb;font-size:.78rem}
 .partida details{margin-top:1.5rem;border-top:1px solid #c4a87042;padding-top:1rem}.partida summary{color:#efd6a0;cursor:pointer}
+.cierre{display:grid;grid-template-columns:1.75fr 1fr;align-items:center;width:min(100%,64rem);gap:1rem}
+.cierre img{display:block;width:100%;height:auto;border:1px solid #c3a56a84}
+@media(max-width:620px){.cierre{grid-template-columns:1fr}.cierre a:last-child{width:min(100%,22rem);justify-self:center}}
+@media(max-width:420px){.equipos table{font-size:.76rem}.campeon{gap:.3rem}.equipos th,.equipos td{padding:.4rem .12rem}}
