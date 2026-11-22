@@ -76,3 +76,5 @@ footer{border-top:1px solid #c9ad683e;padding:1.15rem 0;color:#d6c9aa;font-size:
 .cierre img{display:block;width:100%;height:auto;border:1px solid #c3a56a84}
 @media(max-width:620px){.cierre{grid-template-columns:1fr}.cierre a:last-child{width:min(100%,22rem);justify-self:center}}
 @media(max-width:420px){.equipos table{font-size:.76rem}.campeon{gap:.3rem}.equipos th,.equipos td{padding:.4rem .12rem}}
+.fotos-ascenso{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}
+@media(max-width:620px){.fotos-ascenso{grid-template-columns:1fr}}
